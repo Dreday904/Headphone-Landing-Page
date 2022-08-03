@@ -1,5 +1,5 @@
 #top-jumbo{
-  padding: 0 0 400px;
+  padding: 0 0 100px;
   background: #ffffff; /* Old browsers */
 background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 32%, #c964e5 72%, #ed25cf 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 32%,#c964e5 72%,#ed25cf 100%); /* Chrome10-25,Safari5.1-6 */
@@ -13,7 +13,7 @@ background: linear-gradient(135deg, #ffffff 0%,#ffffff 32%,#c964e5 72%,#ed25cf 1
 
 #top-jumbo .left-side{
   width: 40%;
-  display: inline;
+  display: inline-block;
   float: left;
 }
 #top-jumbo .left-side .large-number{
@@ -55,6 +55,7 @@ background: linear-gradient(135deg, #ffffff 0%,#ffffff 32%,#c964e5 72%,#ed25cf 1
   position: relative;
   top: 7px;
   margin-left: 15px;
+  color: #d5e2ea;
 }
 #top-jumbo .left-side .info-container .email-area input[type="email"]{
   background:white;
@@ -78,10 +79,9 @@ background: linear-gradient(135deg, #ffffff 0%,#ffffff 32%,#c964e5 72%,#ed25cf 1
 #top-jumbo .right-side{
   padding: 0;
   position: relative;
-  right: -650px;
-  top: -845px;
-  width: 900px;
+  right: -867px;
+  top: -734px;
 }
 #top-jumbo .right-side img{
-  width: 100%;
+ width: 100%;
 }
