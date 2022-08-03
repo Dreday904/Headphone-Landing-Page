@@ -9,6 +9,7 @@ header:after {
   content: "";
   display: table;
   clear: both;
+
 }
 header a{
   color: #6066F2;
@@ -17,19 +18,22 @@ header a{
 header .logo{
   display: inline;
   float: left;
-  margin-right: 50px;
+  margin-right: 182px;
 }
 header .logo img{
-width:40px;
+width:50px;
+position: relative;
+right: -160px;
+top: -15px;
 }
 header .menu{
-  display: inline;
+  display: inline-block;
   float: left;
-  position: relative;
-  top: 20px;
 }
 header .menu a{
   text-transform:uppercase;
+  padding: 0 10px;
+  margin: 8px;
 }
 header .header-buttons{
   display: inline;
